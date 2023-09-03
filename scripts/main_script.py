@@ -42,14 +42,3 @@ def main_script(script_file, phrase, file_name, target_name):
 
     except DefaultNameError:
         return 'Неверное имя файла.'
-
-
-if __name__ == '__main__':
-    print(main_script('C:/Users/dobry/PycharmProjects/proj1/scenario.txt',
-                      'Lean and hungry.',
-                      'C:/Users/dobry/PycharmProjects/proj1/test1.mp4',
-                      'C:/Users/dobry/OneDrive/Рабочий стол/ptst.mp4'))
-
-    print(main_script('C:\\Users\\dobry\\PycharmProjects\\proj1\\scenario.txt', 'General.',
-                      'C:\\Users\\dobry\\PycharmProjects\\proj1\\test2.mp4',
-                      'C:\\Users\\dobry\\PycharmProjects\\proj1\\ptest2.mp4'))
